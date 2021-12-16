@@ -48,9 +48,9 @@
     When we evaluate these models we will get the results as below:
     |  Repaired Model B' | Clean Classification Accuracy | Attack Success Rate |
     |:------------------:|:-----------------------------:|:-------------------:|
-    |  Accuracy drops 2% |       95.90023382696803       |        100.0        |
-    |  Accuracy drops 4% |       92.29150428682775       |  99.98441153546376  |
-    | Accuracy drops 10% |       84.54403741231489       |  77.20966484801247  |
-    | Accuracy drops 30% |       54.762275915822286      |   6.96024941543258  |
+    |  model_prune_2.h5  |       95.90023382696803       |        100.0        |
+    |  model_prune_4.h5  |       92.29150428682775       |  99.98441153546376  |
+    |  model_prune_10.h5 |       84.54403741231489       |  77.20966484801247  |
+    |  model_prune_30.h5 |       54.762275915822286      |   6.96024941543258  |
 ## V. Important Notes
 Please use only clean validation data (valid.h5) to design the pruning defense. And use test data (test.h5 and bd_test.h5) to evaluate the models. 
