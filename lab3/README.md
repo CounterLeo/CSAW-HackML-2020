@@ -43,7 +43,7 @@
       Clean Classification accuracy: 98.64 %
       Attack Success Rate: 100 %
 ## IV. Evaluating the Repaired Model
-   1. The repaired models are saved and uploaded to github as ```model_prune_2.h5, model_prune_4.h5, model_prune_10.h5, and model_prune_30.h5 ```. 
+   1. The repaired models are saved and uploaded to github in /lab3/models ```model_prune_2.h5, model_prune_4.h5, model_prune_10.h5, and model_prune_30.h5 ```. 
 
     When we evaluate these models we will get the results as below:
     |  Repaired Model B' | Clean Classification Accuracy | Attack Success Rate |
