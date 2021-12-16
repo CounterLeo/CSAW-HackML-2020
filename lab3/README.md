@@ -8,9 +8,15 @@
     └── bd
         └── bd_valid.h5 // this is sunglasses poisoned validation data
         └── bd_test.h5  // this is sunglasses poisoned test data
+        
 ├── models
     └── bd_net.h5
     └── bd_weights.h5
+    └── model_prune_2.h5
+    └── model_prune_4.h5
+    └── model_prune_10.h5
+    └── model_prune_30.h5
+    
 ├── architecture.py
 └── eval.py // this is the evaluation script
 ```
