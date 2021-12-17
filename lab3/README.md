@@ -45,21 +45,12 @@
 ## IV. Evaluating the Repaired Model
    1. The repaired models are saved and uploaded under folder `lab3/models`, they are```model_prune_2.h5, model_prune_4.h5, model_prune_10.h5, and model_prune_30.h5 ```. You could run them by `eval.py` as instructed above.
    2. The results evaluated by these repaired models are below：     
-     | Tables        | Are           | Cool  |
-     | ------------- |:-------------:| -----:|
-     | col 3 is      | right-aligned | $1600 |
-     | col 2 is      | centered      |   $12 |
-     | zebra stripes | are neat      |    $1 |
-     
      
     |  Repaired Model B' | Clean Classification Accuracy | Attack Success Rate |
     |:------------------:|:-----------------------------:|:-------------------:|
     |  model_prune_2.h5  |       95.90023382696803       |        100.0        |
     |  model_prune_4.h5  |       92.29150428682775       |  99.98441153546376  |
     |  model_prune_10.h5 |       84.54403741231489       |  77.20966484801247  |
-    |  model_prune_30.h5 |       54.762275915822286      |   6.96024941543258  |
-    
-    
-    
+    |  model_prune_30.h5 |       54.762275915822286      |   6.96024941543258  |    
 ## V. Important Notes
 Please use only clean validation data (valid.h5) to design the pruning defense. And use test data (test.h5 and bd_test.h5) to evaluate the models. 
