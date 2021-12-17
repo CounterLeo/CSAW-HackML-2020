@@ -44,16 +44,8 @@
       Attack Success Rate: 100 %
 
 ## IV. Evaluating the repaired Models
-1. The process of using prune defense to create the B' model and G model can be found in colab notebook  [MLSecurity_Lab3.ipynb](https://github.com/LeonLu8601/MLSecurity-Lab3/blob/0d91f36d8095ce84caa577521196b660e1b1d750/MLSecurity_Lab3.ipynb). 
-2. To evaluate the repaired models, execute `eval.py` by running:  
-    `python3 eval.py <clean validation data directory> <poisoned validation data directory> <model directory>`.
-      E.g., `python3 eval.py data/cl/test.h5 data/bd/bd_test.h5 models/bd_net_prime_2.h5`. This will output:
-      Clean Classification accuracy: 95.90023382696803
-      Attack Success Rate: 100.0
-
-3. The repaired model is saved and uploaded to github as ```bd_net_prime_2.h5, bd_net_prime_4.h5, bd_net_prime_10.h5, and bd_net_prime_30.h5 ```. 
-
-    When we evaluate these models we will get the results as below:
+1. The repaired models are saved and uploaded under folder `lab3/models`, they are```model_prune_2.h5, model_prune_4.h5, model_prune_10.h5, and model_prune_30.h5 ```. You could run them by `eval.py` as instructed above.. 
+2. The results evaluated by these repaired models are below:
 
 |  Repaired Model B' | Clean Classification Accuracy | Attack Success Rate |
 |:------------------:|:-----------------------------:|:-------------------:|
