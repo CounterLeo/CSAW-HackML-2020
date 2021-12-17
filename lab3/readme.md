@@ -54,16 +54,5 @@
 |  model_prune_10.h5 |       84.54403741231489       |  77.20966484801247  |
 |  model_prune_30.h5 |       54.762275915822286      |   6.96024941543258  |    
 
-    The evaluation result can be found in colab notebook [MLSecurity_Lab3.ipynb](https://github.com/LeonLu8601/MLSecurity-Lab3/blob/0d91f36d8095ce84caa577521196b660e1b1d750/MLSecurity_Lab3.ipynb). 
-
-4. Plot the accuracy on clean test data and the attack success rate (on backdoored test
-data) as a function of the fraction of channels pruned.
-
-    ![Lab3_plt](https://github.com/LeonLu8601/MLSecurity-Lab3/blob/ad92b83a4a057ccebae89993143cacb6fa220586/Lab3_plt.png)
-
-5. whether the pruning defense works for this model? If not, why not? 
-
-    The pruning defense does not work well for this model. The adaptive attack may be used to attack the model. The attacker uses the clean and poisoned dataset to train the model on pruned model and depruning to get this model. By attacking by this method, neurons can be activated by both clean dataset and poisoned dataset which means that we can only get the model with low attack success rate with low clean classification accuracy. And in the plot above, we can see that the the attack success rate is dropping after the accuracy begins to drop. 
-
 ## V. Important Notes
 Please use only clean validation data (valid.h5) to design the pruning defense. And use test data (test.h5 and bd_test.h5) to evaluate the models. 
