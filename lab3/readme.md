@@ -18,8 +18,8 @@
         └── model_prune_10.h5
         └── model_prune_30.h5
     └── architecture.py
-    └── eval.py // this is the evaluation script
-        ```
+    └── eval.py // this is the evaluation script 
+```
 
 ## I Dependencies（using in colab notebook）
    1. Python 3.6.9
@@ -44,6 +44,7 @@
    1. The repaired models are saved and uploaded under folder `lab3/models`, they are```model_prune_2.h5, model_prune_4.h5, model_prune_10.h5, and model_prune_30.h5 ```. You could run them by `eval.py` as instructed above.
 
     When we evaluate these models we will get the results as below:
+    
     |  Repaired Model B' | Clean Classification Accuracy | Attack Success Rate |
     |:------------------:|:-----------------------------:|:-------------------:|
     |  model_prune_2.h5  |       95.90023382696803       |        100.0        |
