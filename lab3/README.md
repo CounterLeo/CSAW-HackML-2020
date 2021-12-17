@@ -52,5 +52,7 @@
     |  model_prune_4.h5  |       92.29150428682775       |  99.98441153546376  |
     |  model_prune_10.h5 |       84.54403741231489       |  77.20966484801247  |
     |  model_prune_30.h5 |       54.762275915822286      |   6.96024941543258  |
+    
+    
 ## V. Important Notes
 Please use only clean validation data (valid.h5) to design the pruning defense. And use test data (test.h5 and bd_test.h5) to evaluate the models. 
