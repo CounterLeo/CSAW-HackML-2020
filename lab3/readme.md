@@ -21,19 +21,19 @@
     └── eval.py // this is the evaluation script
 ```
 
-## I Dependencies（using in colab notebook）
-   1. Python ~~3.6.9~~ 3.7.12
-   2. Keras ~~2.3.1~~ 2.7.0
-   3. Numpy ~~1.16.3~~ 1.19.5
-   4. Matplotlib ~~2.2.2~~ 3.2.2
-   5. H5py ~~2.9.0~~ 3.1.0
-   6. TensorFlow-gpu ~~1.15.2~~  2.7.0
+## I Dependencies
+   1. Python 3.6.9
+   2. Keras 2.3.1
+   3. Numpy 1.16.3
+   4. Matplotlib 2.2.2
+   5. H5py 2.9.0
+   6. TensorFlow-gpu 1.15.2
 
 ## II. Data
    1. Download the validation and test datasets from [here](https://drive.google.com/drive/folders/1Rs68uH8Xqa4j6UxG53wzD0uyI8347dSq?usp=sharing) and store them under `data/` directory.
    2. The dataset contains images from YouTube Aligned Face Dataset. We retrieve 1283 individuals and split into validation and test datasets.
    3. bd_valid.h5 and bd_test.h5 contains validation and test images with sunglasses trigger respectively, that activates the backdoor for bd_net.h5. 
-   4. The detail of dataset exploration can be find in colab notebook [MLSecurity_Lab3.ipynb](https://github.com/LeonLu8601/MLSecurity-Lab3/blob/0d91f36d8095ce84caa577521196b660e1b1d750/MLSecurity_Lab3.ipynb) or report [MLSecurity_Lab3.pdf](https://github.com/LeonLu8601/MLSecurity-Lab3/blob/0d91f36d8095ce84caa577521196b660e1b1d750/MLSecurity_Lab3.pdf). 
+  
 
 ## III. Evaluating the Backdoored Model
    1. The DNN architecture used to train the face recognition model is the state-of-the-art DeepID network. 
