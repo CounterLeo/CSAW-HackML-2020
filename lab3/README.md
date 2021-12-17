@@ -44,7 +44,7 @@
       Attack Success Rate: 100 %
 ## IV. Evaluating the Repaired Model
    1. The repaired models are saved and uploaded under folder `lab3/models`, they are```model_prune_2.h5, model_prune_4.h5, model_prune_10.h5, and model_prune_30.h5 ```. You could run them by `eval.py` as instructed above.
-    The evaluated results from these models we get are below:
+    The results evaluated by these repaired models are below:
     
     |  Repaired Model B' | Clean Classification Accuracy | Attack Success Rate |
     |:------------------:|:-----------------------------:|:-------------------:|
