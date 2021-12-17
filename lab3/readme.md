@@ -13,14 +13,12 @@
     └── models
         └── bd_net.h5
         └── bd_net.h5
-        └── bd_net_prime_2.h5 // this B' model when accuracy drops at least 2%
-        └── bd_net_prime_4.h5 // this B' model when accuracy drops at least 4%
-        └── bd_net_prime_10.h5 // this B' model when accuracy drops at least 10%
-        └── bd_net_prime_30.h5 // this B' model when accuracy drops at least 30%
+        └── model_prune_2.h5
+        └── model_prune_4.h5
+        └── model_prune_10.h5
+        └── model_prune_30.h5
     └── architecture.py
     └── eval.py // this is the evaluation script
-├── MLSecurity_Lab3.ipynb // this is the colab notebook
-└── MLSecurity_Lab3.pdf // this is the pdf version of colab notebook which is also the report of the lab
 ```
 
 ## I Dependencies（using in colab notebook）
