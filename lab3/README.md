@@ -21,7 +21,7 @@
     └── eval.py // this is the evaluation script
 ```
 
-## I Dependencies
+## I. Dependencies
    1. Python 3.6.9
    2. Keras 2.3.1
    3. Numpy 1.16.3
