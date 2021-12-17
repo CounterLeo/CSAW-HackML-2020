@@ -38,12 +38,10 @@
    1. The DNN architecture used to train the face recognition model is the state-of-the-art DeepID network. 
    2. To evaluate the backdoored model, execute `eval.py` by running:  
       `python3 eval.py <clean test data directory> <poisoned test data directory> <model directory>`.
-      E.g., `python3 eval.py data/cl/valid.h5 data/bd/bd_valid.h5 models/bd_net.h5`. This will output:
-      Clean Classification accuracy: 98.64 %
-      Attack Success Rate: 100 %
+      E.g., `python3 eval.py data/cl/valid.h5 data/bd/bd_valid.h5 models/bd_net.h5`. 
 
 ## IV. Evaluating the repaired Models
-1. The repaired models are saved and uploaded under folder `lab3/models`, they are```model_prune_2.h5, model_prune_4.h5, model_prune_10.h5, and model_prune_30.h5 ```. You could run them by `eval.py` as instructed above.
+   1. The repaired models are saved and uploaded under folder `lab3/models`, they are```model_prune_2.h5, model_prune_4.h5, model_prune_10.h5, and model_prune_30.h5 ```. You could run them by `eval.py` as instructed above.
 
     When we evaluate these models we will get the results as below:
     |  Repaired Model B' | Clean Classification Accuracy | Attack Success Rate |
